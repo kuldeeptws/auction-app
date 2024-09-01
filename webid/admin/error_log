@@ -1,0 +1,54 @@
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_colour in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 87
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_image in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 88
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_colour in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 87
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_image in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 88
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_colour in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 87
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_image in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 88
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_colour in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 87
+[20-Mar-2024 12:42:48 UTC] PHP Notice:  Undefined index: cat_image in /home/blackdow/public_html/webid/includes/class_MPTTcategories.php on line 88
+[20-Mar-2024 17:58:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 17:58:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 17:58:54 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 17:58:54 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 18:01:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 18:01:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[20-Mar-2024 18:44:11 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting ';' or ',' in /home/blackdow/public_html/webid/includes/packages/PasswordHash.php on line 251
+[20-Mar-2024 19:09:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DatabasePDO::prepare() in /home/blackdow/public_html/webid/admin/newuser.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/blackdow/public_html/webid/admin/newuser.php on line 125
+[20-Mar-2024 19:12:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DatabasePDO::prepare() in /home/blackdow/public_html/webid/admin/newuser.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/blackdow/public_html/webid/admin/newuser.php on line 125
+[20-Mar-2024 19:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DatabasePDO::prepare() in /home/blackdow/public_html/webid/admin/newuser.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/blackdow/public_html/webid/admin/newuser.php on line 106
+[20-Mar-2024 19:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DatabasePDO::prepare() in /home/blackdow/public_html/webid/admin/newuser.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/blackdow/public_html/webid/admin/newuser.php on line 109
+[20-Mar-2024 19:24:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 90
+[20-Mar-2024 19:24:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 90
+[20-Mar-2024 19:24:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 90
+[20-Mar-2024 19:39:21 UTC] PHP Fatal error:  Uncaught Error: Cannot instantiate abstract class Database in /home/blackdow/public_html/webid/common.php:61
+Stack trace:
+#0 /home/blackdow/public_html/webid/admin/newuser.php(17): include()
+#1 {main}
+  thrown in /home/blackdow/public_html/webid/common.php on line 61
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[20-Mar-2024 19:43:41 UTC] PHP Notice:  Undefined property: DatabasePDO::$lastExecutedQuery in /home/blackdow/public_html/webid/includes/database/DatabasePDO.php on line 82
+[24-Apr-2024 07:21:18 UTC] PHP Notice:  Undefined index: ERROR in /home/blackdow/public_html/webid/includes/template/Template.php(149) : eval()'d code on line 27
+[24-Apr-2024 20:54:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[24-Apr-2024 20:54:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[27-Apr-2024 07:45:57 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/blackdow/public_html/webid/includes/packages/PHPMailer/PHPMailerAutoload.php on line 45
+[27-Apr-2024 12:39:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[27-Apr-2024 12:39:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[27-Apr-2024 12:39:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[27-Apr-2024 12:39:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/blackdow/public_html/webid/admin/login.php on line 61
+[09-May-2024 06:04:24 UTC] PHP Notice:  Undefined index: ERROR in /home/blackdow/public_html/webid/includes/template/Template.php(149) : eval()'d code on line 27

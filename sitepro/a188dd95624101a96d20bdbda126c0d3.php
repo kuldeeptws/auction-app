@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<script type="text/javascript">
+			</script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title><?php echo htmlspecialchars((isset($seoTitle) && $seoTitle !== "") ? $seoTitle : "Home"); ?></title>
+	<base href="{{base_url}}" />
+	<?php echo isset($sitemapUrls) ? generateCanonicalUrl($sitemapUrls) : ""; ?>	
+	
+						<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<meta name="description" content="<?php echo htmlspecialchars((isset($seoDescription) && $seoDescription !== "") ? $seoDescription : "Home"); ?>" />
+			<meta name="keywords" content="<?php echo htmlspecialchars((isset($seoKeywords) && $seoKeywords !== "") ? $seoKeywords : "Home"); ?>" />
+		
+	<!-- Facebook Open Graph -->
+		<meta property="og:title" content="<?php echo htmlspecialchars((isset($seoTitle) && $seoTitle !== "") ? $seoTitle : "Home"); ?>" />
+			<meta property="og:description" content="<?php echo htmlspecialchars((isset($seoDescription) && $seoDescription !== "") ? $seoDescription : "Home"); ?>" />
+			<meta property="og:image" content="<?php echo htmlspecialchars((isset($seoImage) && $seoImage !== "") ? "{{base_url}}".$seoImage : ""); ?>" />
+			<meta property="og:type" content="article" />
+			<meta property="og:url" content="{{curr_url}}" />
+		<!-- Facebook Open Graph end -->
+
+		<meta name="generator" content="ProSite" />
+			<script src="js/common-bundle.js?ts=20240509160306" type="text/javascript"></script>
+	<script src="js/a188dd95624101a96d20bdbda126c0d3-bundle.js?ts=20240509160306" type="text/javascript"></script>
+	<link href="css/common-bundle.css?ts=20240509160306" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Jura:400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100&amp;subset=latin" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese" rel="stylesheet" type="text/css" />
+	<link href="css/a188dd95624101a96d20bdbda126c0d3-bundle.css?ts=20240509160306" rel="stylesheet" type="text/css" id="wb-page-stylesheet" />
+	<ga-code/>
+	<script type="text/javascript">
+	window.useTrailingSlashes = true;
+	window.disableRightClick = false;
+	window.currLang = 'en';
+</script>
+		
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<![endif]-->
+
+		<script type="text/javascript">
+		$(function () {
+<?php $wb_form_send_success = popSessionOrGlobalVar("wb_form_send_success"); ?>
+<?php if (($wb_form_send_state = popSessionOrGlobalVar("wb_form_send_state"))) { ?>
+	<?php if (($wb_form_popup_mode = popSessionOrGlobalVar("wb_form_popup_mode")) && (isset($wbPopupMode) && $wbPopupMode)) { ?>
+		if (window !== window.parent && window.parent.postMessage) {
+			var data = {
+				event: "wb_contact_form_sent",
+				data: {
+					state: "<?php echo str_replace('"', '\"', $wb_form_send_state); ?>",
+					type: "<?php echo $wb_form_send_success ? "success" : "danger"; ?>"
+				}
+			};
+			window.parent.postMessage(data, "<?php echo str_replace('"', '\"', popSessionOrGlobalVar("wb_target_origin")); ?>");
+		}
+	<?php $wb_form_send_success = false; $wb_form_send_state = null; $wb_form_popup_mode = false; ?>
+	<?php } else { ?>
+		wb_show_alert("<?php echo str_replace(array('"', "\r", "\n"), array('\"', "", "<br/>"), $wb_form_send_state); ?>", "<?php echo $wb_form_send_success ? "success" : "danger"; ?>");
+	<?php } ?>
+<?php } ?>
+});    </script>
+</head>
+
+
+<body class="site site-lang-en<?php if (isset($wbPopupMode) && $wbPopupMode) echo ' popup-mode'; ?> " <?php ?>><div id="wb_root" class="root wb-layout-vertical"><div class="wb_sbg"></div><div id="wb_header_a188dd95624101a96d20bdbda126c0d3" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a18f5dcf9f930045463d5f05d742c49b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"></div></div><div id="a188dd95431775dada5b9b38363be1c0" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd954317765344b6d82063926866" class="wb_element wb-layout-element wb-layout-has-link" data-plugin="LayoutElement"><a class="wb-layout-link" href="{{base_url}}"></a><div class="wb_content wb-layout-horizontal"><div id="a18f5dcf61a0000413c4fbf92a979008" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery_gen/074e15091337402e8a6d95e4086e53cb_fit.png?ts=1715266987"></div></div></div></div></div><div id="a18b5b721e24007de20053e6bef56e2b" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431779323f4f26bca85982bf" class="wb_element wb-menu wb-prevent-layout-click wb-menu-mobile" data-plugin="Menu"><a class="btn btn-default btn-collapser"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><ul class="hmenu" dir="ltr"><li class="wb_this_page_menu_item"><a href="{{base_url}}">Home</a></li><li class=""><a href="About/">About</a></li><li class=""><a href="Features/">Features</a></li><li class=""><a href="Contacts/">Contacts</a></li></ul><div class="clearfix"></div></div></div></div></div></div></div></div><div id="wb_main_a188dd95624101a96d20bdbda126c0d3" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd954317237a57f75a2e72fc0b88" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd95431724ec23e77bca1120c83a" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd9543172597453942c898831005" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h3 class="wb-stl-heading3" style="text-align: center;">Your very own auction site</h3>
+
+<h3 class="wb-stl-heading3">hosted without fuss.</h3>
+
+<h3 class="wb-stl-heading3"> </h3>
+</div><div id="a188dd954317263f1deaf30706868e5f" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"></div></div></div></div></div></div><div id="a188dd95431729f37d999ba25bef9dde" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543172a0cc0862c0734a2dd03" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd9543172b4501f146320d5079d9" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543172c42e16816e9bf046546" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2"><strong>You will find the latest information...</strong></h2>
+</div><div id="a188dd9543172dd54362b15642a85911" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal">You will find the latest information about our company here. You will find the latest information about our company...</p>
+</div></div></div><div id="a188dd9543172e20d791da1c1cf521e6" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery_gen/3bd04a46e4ccad64fa381ddb3e6d94cb_1124x656_fit.jpg?ts=1715266987"></div></div></div></div></div></div></div><div id="a188dd9543172f6cb0b6e7885f55011c" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431730b880fe993d68abc957" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd954317318a9b8291ca44a43078" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery/kelly-sikkema-hLit2zL-Dhk-unsplash-2-ts1647960414.jpg?ts=1715266987"></div></div></div><div id="a188dd95431732fb71d78eafc7d0e8ad" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd954317334e233867271fd17cea" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2"><strong>You will find the latest information...</strong></h2>
+</div><div id="a188dd954317345bdfb16d66fdc5fa9b" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal">Add the main advantages of your business that make it unique and the best. Add text why customers have to choose your products or services and what benefits they will get after the product is purchased. Write your own text, style it and press Done.</p>
+</div></div></div></div></div></div></div><div id="a188dd95431735b5920bbfd7874a6f73" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd95431735b5920bbfd7874a6f73_video_background" class="wb_video_background" data-video="gallery/pexels-rostislav-uzunov-8303104-ts1656579849.mp4" data-start="" data-end=""></div><div id="a188dd95431736b21d6ed423c7452413" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd95431737ccbd427726c7dc59ce" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431738eba02c917ac83c0af6" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h3 class="wb-stl-custom5" style="text-align: center;">You will find the latest information...</h3>
+</div><div id="a188dd954317395eb5a55920f3f04882" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-custom4" style="text-align: center;"><span style="color:rgba(255,255,255,1);">You will find the latest information about our company here. You will find the latest information about our company...</span></h2>
+</div></div></div></div></div></div></div><div id="a188dd9543173ad9a52d64e47a4ea7b5" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543173b8cb8702b31fa1185bd" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd9543173c0c109d1ef408826819" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543173d8c934151e5fef32d5b" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal"><strong>You will find the latest information about our company here. You will find the latest information about our company...</strong></p>
+</div><div id="a188dd9543173e886e8ba1a7d34f0d2b" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal">Add the main advantages of your business that make it unique and the best. Add text why customers have to choose your products or services and what benefits they will get after the product is purchased. Write your own text, style it and press Done.</p>
+</div></div></div><div id="a188dd9543173f21783851c4d2e34fbd" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery_gen/8e678a90b352eec7d53b9b4d4efe5330_1080x634_fit.jpg?ts=1715266987"></div></div></div></div></div></div></div><div id="a188dd95431740e6c6f89050feea5c15" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543174183b72e9ce415efbaf3" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd954317426ecbe45028dc1cf474" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery_gen/49bfb67d39d34aefe135bf6e1672775a_726x482_fit.jpg?ts=1715266987"></div></div></div><div id="a188dd954317437b1e5e84eed4574fc4" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431744c806103545a183aeea" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2"><strong>You will find the latest information...</strong></h2>
+</div><div id="a188dd954317455bb60db2fcfb34caec" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal">Add the main advantages of your business that make it unique and the best. Add text why customers have to choose your products or services and what benefits they will get after the product is purchased. Write your own text, style it and press Done.</p>
+</div></div></div></div></div></div></div><div id="a188dd95431746db47e7ff87dcf56cdf" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543174751a5e579ed0cc92255" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd95431748f34a41d78da064be3a" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431749683b8ab1969f1e1a4f" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><h2 class="wb-stl-heading2"><strong>You will find the latest information...</strong></h2>
+</div><div id="a188dd9543174a397f1cd1891f535d7d" class="wb_element wb_text_element" data-plugin="TextArea" style=" line-height: normal;"><p class="wb-stl-normal">Add the main advantages of your business that make it unique and the best. Add text why customers have to choose your products or services and what benefits they will get after the product is purchased. Write your own text, style it and press Done.</p>
+</div></div></div><div id="a188dd9543174b134c7eab15f8834576" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><img alt="" src="gallery_gen/dfd809cf2fb70843b00a1484f2343738_826x482_fit.jpg?ts=1715266987"></div></div></div></div></div></div></div><div id="a188dd9543174c27a31d4b166192764f" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd9543174d17bfb1cd3462ca1465" class="wb_element wb-prevent-layout-click" data-plugin="Video"><video controls="" playsinline=""><source type="video/mp4" src="gallery/pexels-jack-sparrow-5977053-ts1646314774.mp4"></source><a href="gallery/pexels-jack-sparrow-5977053-ts1646314774.mp4">pexels-jack-sparrow-5977053-ts1646314774.mp4</a></video></div></div></div></div></div><div id="wb_footer_a188dd95624101a96d20bdbda126c0d3" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-vertical"><div id="a188dd95431787c5b3738027fb1a0db7" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd954317882ddfea5ddc908919cd" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap"><div class="wb-picture-wrapper"><a href="{{base_url}}"><img alt="" src="gallery/Polygon%203-ts1646314358.svg?ts=1715266987"></a></div></div></div><div id="a188dd95431789ac052a0ff1f12ed2c4" class="wb_element wb-layout-element" data-plugin="LayoutElement"><div class="wb_content wb-layout-horizontal"><div id="a188dd9543178a33ed3c79bc382eaa64" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap" style="height: 100%"><div class="wb-picture-wrapper" style="overflow: visible; display: flex"><a href="{{base_url}}"><svg xmlns="http://www.w3.org/2000/svg" width="1793.982" height="1793.982" viewBox="0 0 1793.982 1793.982" style="direction: ltr; color:#ffffff"><text x="385.501415" y="1537.02" font-size="1792" fill="currentColor" style='font-family: "FontAwesome"'></text></svg></a></div></div></div><div id="a188dd9543178b1fcb6dd633a12d84b1" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap" style="height: 100%"><div class="wb-picture-wrapper" style="overflow: visible; display: flex"><a href="{{base_url}}"><svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" style="direction: ltr; color:#ffffff"><text x="0" y="960" font-size="1024" fill="currentColor" style='font-family: "builder-ui-icons-plugins"'></text></svg></a></div></div></div><div id="a188dd9543178ca3b25666d3e59759b1" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap" style="height: 100%"><div class="wb-picture-wrapper" style="overflow: visible; display: flex"><a href="{{base_url}}"><svg xmlns="http://www.w3.org/2000/svg" width="1793.982" height="1793.982" viewBox="0 0 1793.982 1793.982" style="direction: ltr; color:#ffffff"><text x="129.501415" y="1537.02" font-size="1792" fill="currentColor" style='font-family: "FontAwesome"'></text></svg></a></div></div></div><div id="a188dd9543178dbdafa712929053569a" class="wb_element wb_element_picture" data-plugin="Picture" title=""><div class="wb_picture_wrap" style="height: 100%"><div class="wb-picture-wrapper" style="overflow: visible; display: flex"><a href="{{base_url}}"><svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" style="direction: ltr; color:#ffffff"><text x="0" y="960" font-size="1024" fill="currentColor" style='font-family: "builder-ui-icons-plugins"'></text></svg></a></div></div></div></div></div></div></div><div id="wb_footer_c" class="wb_element" data-plugin="WB_Footer" style="text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+			$(function() {
+				var footer = $(".wb_footer");
+				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
+				if (!html) {
+					footer.parent().remove();
+					footer = $("#footer, #footer .wb_cont_inner");
+					footer.css({height: ""});
+				}
+			});
+			</script></div></div></div></div>{{hr_out}}</body>
+</html>
